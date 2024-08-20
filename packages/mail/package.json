@@ -1,0 +1,17 @@
+{
+  "name": "mail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.tsx",
+  "scripts": {
+    "dev": "wrangler dev src/index.tsx",
+    "deploy": "wrangler deploy --minify src/index.tsx"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240815.0",
+    "wrangler": "^3.72.0"
+  }
+}
